@@ -1,7 +1,8 @@
+#! /usr/bin/env node 
 import inquirer from "inquirer";
 
 async function loanCalculator() {
-  console.log("Loan Calculator");
+  console.log("Loan Calculator created by Abdul Waheed");
 
   const questions = [
     { type: "input", name: "PV", message: "Enter the loan amount:" },
